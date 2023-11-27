@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FCF5ED;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
+
+.container {
+    height: 100vh;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; 
+    margin-left: 250px;
+}
+
+.caixa {
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-right: 20px; /* Add margin to create space between .caixa and .area-fotos */
+}
+
+.area-fotos {
+    /* Estilos da área de fotos */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    width: 110px;
+    background-color: white;
+
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background-color: white;
+
+}
+
+p {
+    background-color: white;
+}
+
+.buscar {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 40px;
+    flex-direction: column;
+
+}
+
+.buscar input {
+    background-color: white;
+    width: 500px;
+    height: 55px;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.senhazinha {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+    margin-top: 10px;
+
+}
+
+#botaoMostrarSenha {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    background-color: white;
+
+}
+
+.legenda {
+    background-color: white;
+}
+
+.botoes {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.botao1 {
+    width: 50%;
+    justify-content: left;
+    background-color: white;
+
+}
+
+.botao2 {
+    width: 50%;
+    justify-content: right;
+    background-color: white;
+
+
+}
+
+.botao1 button {
+    background-color: #F69100;
+    color: white;
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 4px;
+}
+
+.botao2 button {
+    background-color: #F69100;
+    color: white;
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 4px;
+}
+
+/* AREA DA FOTO */
+.caixa {
+    display: flex; /* Use flexbox */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#texto {
+    flex: 1; /* Take remaining space */
+}
+
+#foto {
+    /* Adjust the size of the area for better quality */
+    height: 150px;
+    width: 150px;
+    border-radius: 50%; /* Use a circle for the border-radius */
+    background-size: cover;
+    background-position: 50%;
+    margin: 20px;
+    border: 5px solid #F69100;
+}
+
+
+#camera {
+    /* Ajuste o tamanho do vídeo conforme necessário */
+    width: 320px;
+    margin: 20px;
+    transform: scaleX(-1);
+    border: 5px solid #F69100;
+}
+
+button {
+    background-color: #F69100;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #F69100;
+}
+
+button:active {
+    background-color: #2c3e50;
+}
+

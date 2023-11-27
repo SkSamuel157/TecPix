@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="container">
+        <div class="caixa">
+            <div id="texto">
+                <h1>Fazer Login</h1>
+                <p>Use sua Conta FiveStudios</p>
+            </div>
+            <div id="foto" style="background-image: url('path/to/your/high_resolution_image.jpg');"></div>
+            <div class="buscar">
+                <input type="text" id="caixas" placeholder="E-mail ou Telefone">
+                <br> <br>
+                <input type="password" id="senha" placeholder="Digite sua Senha">
+                <div class="senhazinha">
+                    <input type="checkbox" id="botaoMostrarSenha">
+                    <label for="botaoMostrarSenha" class="legenda">Mostrar Senha</label>
+                </div>
+                <div class="botoes">
+
+                    <div class="botao1">
+                        <button>Cancelar</button>
+                    </div>
+
+                    <div class="botao2">
+                        <button>OK</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="area-fotos">
+            <video id="camera" autoplay></video>
+            <button onclick="abrirCamera()">Abrir Câmera</button>
+            <button onclick="tirarFoto()">Tirar Foto</button>
+            <button onclick="salvarFoto()">Salvar Foto</button>
+            <button onclick="fechar()">Fechar Câmera</button>
+        </div>
+        
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
